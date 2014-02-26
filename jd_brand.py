@@ -34,7 +34,7 @@ def get_data_row(url_prefix, id):
 url_prefix = "http://item.jd.com/%s.html"
 #set_head_row()
 id_base = 650259
-for i in xrange(-710,1000):
+for i in xrange(414,1000):
     try:
         id = id_base + i
         get_data_row(url_prefix, id)
